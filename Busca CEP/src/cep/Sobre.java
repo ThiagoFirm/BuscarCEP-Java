@@ -59,11 +59,11 @@ public class Sobre extends JDialog {
 		lblNewLabel_2.setBounds(31, 139, 123, 13);
 		getContentPane().add(lblNewLabel_2);
 		
-		JLabel labelWebService = new JLabel("republicavirtual.com.br");
+		JLabel labelWebService = new JLabel("viacep.com.br");
 		labelWebService.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseClicked(MouseEvent e) {
-				link("https://republicavirtual.com.br/");
+				link("https://viacep.com.br/");
 			}
 		});
 		labelWebService.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
